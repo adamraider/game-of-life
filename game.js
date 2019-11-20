@@ -1,13 +1,13 @@
 const boardElement = document.getElementById('board');
-const ROWS = 40;
-const COLS = 40;
+const ROWS = 75;
+const COLS = 75;
 
 const DEAD_VAL = 0;
 const LIVE_VAL = 1;
 
 const TIME_IN_BETWEEN_GENERATIONS_IN_MS = 50;
 const NUM_OF_GENERATIONS = 1000;
-const NUM_OF_RANDOM_CELLS = 500;
+const NUM_OF_RANDOM_CELLS = 800;
 
 function render(board) {
   boardElement.innerHTML = board
